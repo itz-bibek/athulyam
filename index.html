@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athulyam (Group A)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Athulyam V-Board</h1>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to the Athulyam Virtual Board. We are a team of innovators exploring the forefront of technology.</p>
+        <div class="about-content">
+            <div class="about-card">
+                <h3>Leader</h3>
+                <ul>
+                    <li>Name: <strong>Bibek Roy</strong></li>
+                    <p>Class X</p>
+                    <li>Name: <b>Barnita Das</b></li>
+                    <p>Class X</p>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>Co-Leader</h3>
+                <ul>
+                    <li>Name: <b>B.Anush Sharma</b></li>
+                    <p>Class IX</p>
+                    <li>Name: <b>Banhishika Acharjee</b></li>
+                    <p>Class IX</p>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>Active Members</h3>
+                <ul>
+                    <li>Animesh Das [X]</li>
+                    <li>Aditri Roy [IX]</li>
+                    <li>Priyanjana Goswami [X]</li>
+                    <li>Khaleda Begum Barbhuiya [IX]</li>
+                    <li>Debangshi Chakroborty [VIII]</li>
+                    <li>Umiya Mazumder [VIII]</li>
+                    <li>Nirupam Chandra Dey [VIII]</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section>
+        <h2>Articles & Drawings</h2>
+    <div id="gallery">
+        <div class="gallery-item">
+            <img src="Pic 1.jpg" alt="Project 1" onclick="openLightbox('Pic 1.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 2.jpg" alt="Project 2" onclick="openLightbox('Pic 2.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 3.jpg" alt="Project 3" onclick="openLightbox('Pic 3.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 4.jpg" alt="Project 1" onclick="openLightbox('Pic 4.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 5.jpg" alt="Project 2" onclick="openLightbox('Pic 5.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 6.jpg" alt="Project 3" onclick="openLightbox('Pic 6.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 7.jpg" alt="Project 2" onclick="openLightbox('Pic 7.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 8.jpg" alt="Project 3" onclick="openLightbox('Pic 8.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 9.jpg" alt="Project 1" onclick="openLightbox('Pic 9.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 10.jpg" alt="Project 2" onclick="openLightbox('Pic 10.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 11.jpg" alt="Project 3" onclick="openLightbox('Pic 11.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 12.jpg" alt="Project 2" onclick="openLightbox('Pic 12.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 13.jpg" alt="Project 3" onclick="openLightbox('Pic 13.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="Pic 14.jpg" alt="Project 3" onclick="openLightbox('Pic 14.jpg')">
+        </div>
+    </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" onclick="closeLightbox()">
+        <span onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="Gallery Image">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Made with Carft by <a href="https://itz-bibek.github.io/website">Bibek Roy</a>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
